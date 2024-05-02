@@ -8,6 +8,7 @@ body{
     background-color: rgb(52, 41, 63);
 }
 
+
 .logo{
     margin-top: 10px;
     margin-left: 5px;
@@ -19,7 +20,7 @@ body{
 }
 
 .sidebar{
-    font-weight: 600;
+        font-weight: 600;
     margin-top: 10px;
     color: wheat;
     float: right;
@@ -80,8 +81,46 @@ img{
     cursor: pointer;
 }
 
-.sid:hover{
-    color: black;
-    transition: .3s;
+.sidebtmhome{
+    border: none;
+    width: 50px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+.sidebtmhome:hover{
+    color: wheat;
+    transition: .5s;
     cursor: pointer;
+    background-color: rgb(39, 93, 155);
+
+}
+
+.sidebtmora{
+    border: none;
+    width: 110px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+.sidebtmora:hover{
+    color: wheat;
+    transition: .5s;
+    cursor: pointer;
+    background-color: rgb(39, 93, 155);
+}
+
+.sidebtma{
+    border: none;
+    width: 80px;
+    height: 20px;
+    border-radius: 50px;
+
+}
+
+.sidebtma:hover{
+    color: wheat;
+    transition: .5s;
+    cursor: pointer;
+    background-color: rgb(39, 93, 155);
 }
